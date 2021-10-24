@@ -1,0 +1,148 @@
+*{
+    margin: 0%;
+}
+body{
+    background-image: url(backg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+}
+nav{
+    text-align: center;
+    height: 75px;
+    box-shadow: 0 4px 5px rgb(31, 31, 37);
+    position: sticky;
+    top: 0%;
+}
+nav > button{
+    border: none;
+    background-color: rgb(74, 80, 74);
+    padding: 15px 20px 15px 20px;
+    position: relative;
+    top: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+}
+nav > button:hover{
+    background-color: rgb(40, 167, 93);
+    box-shadow: 2px 3px 7px rgb(95, 165, 144);
+}
+#home{
+    border: none;
+    background-color: rgb(74, 80, 74);
+    padding: 15px 20px 15px 20px;
+    position: absolute;
+    top: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    left: 100px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+}
+#home:hover{
+    background-color: rgb(38, 196, 85);
+    box-shadow: 2px 3px 7px rgb(98, 228, 200);
+}
+.wrap{
+    position: absolute;
+    display: inline-block;
+    left: 360px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+span{
+    position: absolute;
+    left: 70px;
+    top: 70px;
+    display: none;
+}
+span > button{
+    display: block;
+    padding: 20px;
+    border: none;
+    margin: 2px;
+    background-color: gray;
+    text-align: center;
+    border-radius: 2px;
+    width: 200px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+span > button:hover{
+    background-color: rgb(34, 201, 98);
+    box-shadow: 2px 2px 7px rgb(96, 179, 96);
+}
+.wrap:hover span{
+    display: block;
+}
+form{
+    position: relative;
+    top: 150px;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    left: 400px;}
+label{
+    color: rgb(255, 255, 255);
+    position: relative;
+    text-transform: uppercase;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+input{
+    width: 50%;
+    height: 20%;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    margin: 5px;
+    border-bottom: 3px solid darkgreen;
+}
+form > button{
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    top: 20px;
+    width: 70px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+}
+#signup{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+#signin{
+    background-color: rgba(0, 255, 0, 0.7);
+}
+#signup:hover{
+    background-color: red;
+}
+#signin:hover{
+    background-color: green;
+}
+input::placeholder{
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+}
